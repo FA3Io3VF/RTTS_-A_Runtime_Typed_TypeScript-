@@ -1,6 +1,8 @@
 # RTTS_-A_Runtime_Typed_TypeScript-
 A Simply TypeScript RunTime Type Preprocessor
 
+**This Software is Beta Version**
+
 
 From this:
 
@@ -31,4 +33,12 @@ if (typeof result !== "number") {
     throw new TypeError("Type 'string' is not assignable to type 'number'.");
 }
 console.log(result);
+```
+
+Or with Decoration:
+
+```
+let x = 10; // @type number
+let y = "hello"; // @type string
+let z = true; // @type boolean
 ```
