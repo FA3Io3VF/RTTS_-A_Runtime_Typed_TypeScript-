@@ -9,7 +9,7 @@ A Simply TypeScript Compiler with Superpower (without Node) :D
 
 From this:
 
-```
+```typescript
 function addNumbers(a: number, b: number): number {
     return a + b;
 }
@@ -20,7 +20,7 @@ console.log(result);
 
 to this:
 
-```
+```javascript
 function addNumbers(a, b) {
     if (typeof a !== "number") {
         throw new TypeError("Type 'string' is not assignable to type 'number'");
@@ -40,7 +40,7 @@ console.log(result);
 
 Or with Decoration:
 
-```
+```javascript
 let x = 10; // @type number
 let y = "hello"; // @type string
 let z = true; // @type boolean
