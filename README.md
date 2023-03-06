@@ -2,6 +2,10 @@
 
 A Simply TypeScript Compiler With RunTime Type Checking (without Node) :D
 
+## This code use ANTLR4 and a Javascript Grammar from 
+
+- https://github.com/antlr/grammars-v4/blob/master/javascript/javascript/JavaScriptLexer.g4
+
 **This Software is Beta Version**
 
 LICENSE:
